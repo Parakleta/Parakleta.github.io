@@ -1,5 +1,14 @@
 <html>
+<head>
+  <script>
+    window.onload = async (event) => {
+      var node = document.getElementById("url");
+      node.innerHTML = document.location.href;
+    }
+  </script>
+</head>
 <body>
 <h1>My First Pages Page</h1>
+<p id="url"></p>
 </body>
 </html>
